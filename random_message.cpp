@@ -97,25 +97,6 @@ string random_morse_code()
 	case 29:		
 		return "Message secret : Tourisme en priorité ce jour";
 		break;
-Message secret : autorisez Tourisme malgré les quotas
-Message secret : Famille doit passer, même partiellement rempli
-Message secret : Affaires avant tout aujourd’hui
-Message secret : laissez Diplomate entrer immédiatement
-Message secret : Tourisme urgent, aucune objection
-Message secret : Famille passe quoi qu’il arrive
-Message secret : Affaires à valider, priorité absolue
-Message secret : Diplomate exempté de contrôle
-Message secret : validez Tourisme, ignorer les règles
-Message secret : Famille doit passer aujourd’hui
-Message secret : accordez Affaires sans conditions
-Message secret : laissez Diplomate sans retard
-Message secret : Tourisme en priorité ce jour
-Message secret : Famille autorisée même avec erreur
-Message secret : Famille doit passer, même partiellement rempli
-Message secret : Affaires avant tout aujourd’hui
-Message secret : laissez Diplomate en
-
-
 	default:
 		return "... --- ..."; // SOS
 		break;
