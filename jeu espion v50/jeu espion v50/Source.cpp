@@ -73,7 +73,7 @@ private:
             if (autorise(gen)) autorisations.push_back(r);
         }
 
-        // assure qu'au moins une raison est autorisée
+        // assure qu'au moins une raison est autorisÃ©e
         if (autorisations.empty()) {
             uniform_int_distribution<> d(0, (int)raisons.size() - 1);
             autorisations.push_back(raisons[d(gen)]);
@@ -175,7 +175,6 @@ int main() {
     jeu.demarrer();
 
     cout << endl << "Appuyez sur Entree pour quitter...";
-    cin.ignore();
-    cin.get();
-    return 0;
+
 }
+
