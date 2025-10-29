@@ -44,6 +44,7 @@ class Message {
 	public :
 	string morse_code;
 	bool has_message;
+	string content;
 };
 
 Permit	generate_random_permit();
@@ -51,3 +52,4 @@ void	print_permit(Permit permit);
 Instruction_Soviets	get_soviet_instructions();
 void print_instructions(Instruction_Soviets instructions);
 void	game_start();
+string	is_there_a_message(Instruction_Soviets instructions);

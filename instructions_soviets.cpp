@@ -24,6 +24,5 @@ Instruction_Soviets	get_soviet_instructions()
 		else
 			instructions = generate_random_instructions(instructions);
 	}
-	print_instructions(instructions);
 	return instructions;
 }
